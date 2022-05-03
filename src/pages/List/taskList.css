@@ -1,0 +1,89 @@
+.searchBar{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-family: Roboto;
+    font-weight: 150;
+    color: #D2DAF5;
+}
+
+main .cards .card {
+    margin: 0 auto;
+
+    background-color: #2F3644;
+
+    padding: 10px 30px;
+    width: 800px;
+
+    border-radius: 7px;
+    margin-top: 20px;
+    box-shadow: 10px 5px 5px black;
+
+}
+
+
+.card{
+    font-family: Roboto;
+    font-weight: 150;
+
+    color: #D2DAF5;
+
+    font-size: 0.9rem;
+    
+}
+
+
+
+.btns {
+    display: flex;
+    justify-content:flex-end;    
+    margin-top: 10px;
+    
+    text-shadow: 2px 2px 0 1px #930;
+}
+
+.btns button {
+    color: rgba(247, 245, 245, 0.938);
+    font-size: 1.3rem;
+    border: 0;
+    border-radius: 10px;
+    font-weight: 700;
+    cursor: pointer;
+
+    padding: 5px 10px;
+    
+    box-shadow: 2px 2px 1px black;
+}
+
+button:active {
+    box-shadow: 0 0 0 0 , inset 3px 3px 3px black; 
+}
+
+.btnEdit button{
+    background-color: #309bc931;
+    margin-right: 5px;
+    
+}
+
+.btnCheck button{
+    background-color: #3dec463a;
+    margin-right: 5px;
+    
+}
+
+.btnDelete button{
+    background-color: #ff231b46;
+}
+
+.btnArchive button{
+    background-color: #5a585846;
+    margin-right: 5px;
+}
+
+

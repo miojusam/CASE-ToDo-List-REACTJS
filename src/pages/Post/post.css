@@ -1,0 +1,62 @@
+main {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.cardPost h1{
+    font-family: Roboto;
+    font-weight: 700;
+
+    color: #D2DAF5;
+
+    font-size: 1.9rem;
+}
+
+.descriptionInput {
+    width: 600px;
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding-left: 15px;
+}
+
+input {
+    height: 35px;
+}
+
+.date {
+    width: 200px;
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    padding-left: 15px;
+}
+
+
+.error-message {
+    color: rgb(240, 47, 47);
+}
+
+
+.btnCancel {
+    background-color: #ff231b46;
+}
+
+.btnSubmit{
+    background-color: #3dec463a;
+    margin-right: 5px;
+}
+
+.btnBack{
+    background-color: #3dd7ec3a;
+    margin-right: 5px;
+
+}
